@@ -1,0 +1,123 @@
+.today{
+	height:100vh;
+    display:grid;
+	grid-template-columns:1fr;
+  	grid-template-rows: 1fr 1fr;
+  	top:0;
+  	left:0;
+  	width:100%;
+  	color:#fff;
+  	background-image: url(../img/bridge-side.jpg);
+    background-size:1025px; 
+    background-position: 53.25% 0%;
+    background-repeat:no-repeat;
+    .gradient2{
+    	height:100vh;
+        display:grid;
+		grid-template-columns:1fr;
+  		grid-template-rows: 1fr 3fr;
+ 		background: rgb(248,248,248);
+		background: linear-gradient(180deg, rgba(248,248,248,0) 0%, rgba(248,248,248,0) 63%, rgba(248,248,248,0.25020015132319817) 66%, rgba(248,248,248,0.45440435552740244) 69%, rgba(248,248,248,0.7547046558277027) 75%, rgba(248,248,248,0.9048548059778528) 79%, rgba(248,248,248,1) 83%, rgba(248,248,248,1) 94%); }
+  	.data{
+  		padding:3.5em;
+  		display:grid;
+		grid-template-columns:1fr;
+  		grid-template-rows: repeat(4, auto);
+  		grid-row:1;
+  		}
+  	.bottom{
+  		display:grid;
+  		grid-template-rows: repeat(1fr 1fr);
+  		grid-row:2;
+  	}
+}
+
+
+.location, h4{
+	padding:0;
+	margin:0;
+	grid-row:1;
+	font-weight:100;
+	justify-self:center;
+	align-self:end;
+}
+
+
+ .number{
+	padding:0;
+	margin:0 -36px -10px 0;
+	grid-row:2;
+	font-size:5.5em;
+	font-weight:700;
+	justify-self:center;
+}
+
+ .sunset{
+ 	padding:1em;
+ 	grid-row:4;
+	place-items:center;
+ 	display:grid;
+	grid-template-rows: auto auto;
+ 	h2{
+ 	margin:0;
+ 	font-size:1em;
+ 	font-weight:300;
+ }
+}
+
+
+.sun{
+	max-width:40px;
+}
+
+.hilo{
+	grid-row:3;
+	place-items:center;
+ 	display:grid;
+	grid-template-columns: 1fr auto 1fr;
+	.low{
+		font-size:.8em;
+		grid-column:1;
+		justify-self: end;
+		h3{	
+			padding:0;
+			margin:0;
+			font-weight:300;
+		}
+	}
+  	.pipe{
+  		padding:0 10px 0 10px;
+  		font-size:1em;
+  		grid-column:2;
+  	}
+  	.high{
+  		font-size:.8em;
+  		justify-self: start;
+  		grid-column:3;
+  		h3{	
+  			padding:0;
+			margin:0;
+			font-weight:300;
+		}
+  	}
+  	}
+
+
+
+.bottom{
+	padding:1em;
+	margin:0;
+	grid-row:2;
+	align-self:end;
+	justify-items:center;
+	color:#707070;
+	h1{
+	    letter-spacing: 4px;
+		font-weight:100;
+		font-size:1.35em;
+	}
+}
+
+.umbrelogo{
+	max-width:215px;
+}

@@ -1,0 +1,65 @@
+
+@media screen and (max-width: 25em) {
+.cover{
+    background-image: url(../img/bridge-middle.jpg);
+    background-size:400px;  }
+
+}
+
+@media screen and (max-width: 25em) {
+.nextday{
+background-image: url(../img/city-view.jpg);
+background-size:800px;}
+
+}
+
+
+
+@media screen and (min-width: 40em) {
+.cover{
+  	background-image: url(../img/bridge-middle.jpg);
+    background-size:cover;
+    background-position: 70% 0%;
+      .gradient{
+     background: rgb(248,248,248);
+background: linear-gradient(180deg, rgba(248,248,248,1) 0%, rgba(248,248,248,0) 100%);  }
+ .top{
+      padding:4em;
+    button{
+      font-weight:400;
+      background-color: #f8f8f8;
+    }}
+  }
+}
+
+
+
+@media screen and (min-width: 400px) {
+.today{
+  	background-image: url(../img/bridge-side.jpg);
+    background-size:cover;
+}
+}
+
+@media screen and (min-width: 40em) {
+.nextday{
+background-image: url(../img/city-view.jpg);
+background-size:cover;
+background-position: top;
+.days{
+grid-gap: 3em;
+
+}
+.poem{
+	grid-column: 1 / span 6;
+	justify-self:center;
+	align-self:start;
+	font-size:1em;
+	font-weight:100;
+	margin:-8em 0 0 0;
+	grid-row:3;
+}
+}
+}
+
+

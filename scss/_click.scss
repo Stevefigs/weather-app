@@ -1,0 +1,20 @@
+.cover{
+  transition: transform .4s;
+  .go{
+    opacity:.9;
+    opacity: 0.8;
+  transition: opacity .25s ease-in-out;
+    transition:transform .2s;
+  }
+
+}
+
+.go:hover {
+  transform: scale(1.1);
+   opacity: 0.5;
+}
+
+.open {
+    transform: translateY(-100%);
+transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+}
