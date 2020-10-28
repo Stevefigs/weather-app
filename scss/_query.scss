@@ -1,12 +1,13 @@
 
-@media screen and (max-width: 25em) {
+//for iphone 6/7/8 screens
+@media screen and (max-height: 667px) {
 .cover{
     background-image: url(../img/bridge-middle.jpg);
     background-size:400px;  }
 
 }
-
-@media screen and (max-width: 25em) {
+//for iphone 6/7/8 screens
+@media screen and (max-height: 667px) {
 .nextday{
 background-image: url(../img/city-view.jpg);
 background-size:800px;}
@@ -47,17 +48,20 @@ background-image: url(../img/city-view.jpg);
 background-size:cover;
 background-position: top;
 .days{
-grid-gap: 3em;
+grid-gap: 1em;
 
 }
 .poem{
-	grid-column: 1 / span 6;
-	justify-self:center;
-	align-self:start;
-	font-size:1em;
-	font-weight:100;
-	margin:-8em 0 0 0;
-	grid-row:3;
+  margin:0;
+  grid-column: 4 / span 3;
+  justify-self:end;
+  align-self:end;
+  font-size:1.25rem;
+  font-weight:100;
+  grid-row:3;
+  color:#FFF;
+  text-align:right;
+
 }
 }
 }

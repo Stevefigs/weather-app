@@ -11,7 +11,7 @@ background: rgb(248,248,248);
 background: linear-gradient(180deg, rgba(248,248,248,1) 0%, rgba(248,248,248,1) 24%, rgba(248,248,248,0) 49%, rgba(248,248,248,0) 86%, rgba(248,248,248,0) 100%); 
 }
 .days{
-padding:3em;
+padding:2em;
 max-width:900px;
 margin:auto;
 height:100%;
@@ -27,7 +27,7 @@ background-color:#fff;
 border-radius:100px;
 display:grid;
 grid-template-columns: 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-rows: 2em 1fr 1fr 3em;
 .day{
 	font-weight:700;
 	grid-row:1;
@@ -51,20 +51,22 @@ grid-template-rows: 1fr 1fr 1fr 1fr;
 .umbrella{
 	grid-row:4;
 	justify-self:center;
-	align-self-self:start;
+	align-self:center;
 
 
 }
 }
 
 .poem{
-	grid-column: 1 / span 6;
+	margin:0;
+	grid-column: 4 / span 3;
 	justify-self:center;
-	align-self:center;
-	font-size:.75em;
-	font-weight:100;
-	padding:.5em;
-	grid-row:2;
+	align-self:end;
+	font-size:.8rem;
+	font-weight:300;
+	grid-row:3;
+	color:#FFF;
+	text-align:right;
 }
 
 
